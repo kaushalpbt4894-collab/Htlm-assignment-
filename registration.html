@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h2>My Assignment Website</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="registration.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="card">
+      <h1>User Registration Form</h1>
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required placeholder="Enter username">
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+
+        <div class="form-group">
+          <label for="gender">Gender:</label>
+          <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <button type="submit">Submit Registration</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
